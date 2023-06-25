@@ -1,0 +1,255 @@
+:root {
+    --fuente: 'Roboto', sans-serif;
+  
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+  
+  
+    --padding-container: 10rem 0;
+  }
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    
+  }
+
+h2, p {
+  color: white;
+}
+
+p,a {
+  font-family: 'Lexend Deca', sans-serif;
+}
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+}
+  /* Hero */
+
+.hero {
+  height: 600px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 60px;
+  
+}
+
+
+/* Card 1 */
+.hero__card-1 {
+  background-color: var(--Bright-orange);
+  border-radius: 5px 0 0 5px;
+  height: 450px;
+    
+}
+.card__img-1 {
+  background-color: var(--Bright-orange);
+  margin: 40px;
+}
+.card__tittle-1 {
+  background-color: var(--Bright-orange);
+  margin: 0 0 20px 40px;
+  font-size: 40px;
+}
+.card__p-1 {
+  background-color: var(--Bright-orange);
+  margin: 0 0 80px 40px;
+  font-weight: lighter;
+  opacity: 70%;
+  font-size: 15px;
+  max-width: 80%;
+}
+.card__button1 {
+  color: var(--Bright-orange);
+  text-decoration: none;
+  padding: .6rem 1.6rem;
+  border-radius: 3rem;
+  background-color: white;
+  margin: 35px;
+
+}
+
+/* Card 2 */
+.hero__card-2 {
+  background-color: var(--Dark-cyan);
+  border-radius: 0 0 0 0;
+  height: 450px;
+}
+.card__img-2 {
+  background-color: var(--Dark-cyan);
+  margin: 40px;
+}
+.card__tittle-2 {
+  background-color: var(--Dark-cyan);
+  margin: 0 0 20px 40px;
+  font-size: 40px;
+  
+}
+.card__p-2 {
+  background-color: var(--Dark-cyan);
+  margin: 0 0 80px 40px;
+  font-weight: lighter;
+  opacity: 70%;
+  font-size: 15px;
+  max-width: 80%;
+}
+.card__button2 {
+  color: var(--Dark-cyan);
+  text-decoration: none;
+  padding: .6rem 1.6rem;
+  border-radius: 3rem;
+  background-color: white;
+  margin: 35px;
+  
+
+}
+
+/* Card 3 */
+.hero__card-3 {
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0 5px 5px 0;
+  height: 450px;
+}
+.card__img-3 {
+  background-color: var(--Very-dark-cyan);
+  margin: 40px;
+}
+.card__tittle-3 {
+  background-color: var(--Very-dark-cyan);
+  margin: 0 0 20px 40px;
+  font-size: 40px;
+}
+.card__p-3 {
+background-color: var(--Very-dark-cyan);
+margin: 0 0 80px 40px;
+  font-weight: lighter;
+  opacity: 70%;
+  font-size: 15px;
+  max-width: 80%;
+}
+.card__button3 {
+  color: var(--Very-dark-cyan);
+  text-decoration: none;
+  padding: .6rem 1.6rem;
+  border-radius: 3rem;
+  background-color: white;
+  margin: 35px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 400px 0 0 0;
+    
+  }
+  /* Card 1 */
+.hero__card-1 {
+  background-color: var(--Bright-orange);
+  border-radius: 5px 0 0 5px;
+  height: 950px;
+    
+}
+.card__img-1 {
+  background-color: var(--Bright-orange);
+  margin: 40px;
+}
+.card__tittle-1 {
+  background-color: var(--Bright-orange);
+  margin: 0 0 20px 40px;
+  font-size: 40px;
+}
+.card__p-1 {
+  background-color: var(--Bright-orange);
+  margin: 0 0 80px 40px;
+  font-weight: lighter;
+  opacity: 70%;
+  font-size: 15px;
+  max-width: 20%;
+  margin: 50px;
+  
+}
+.card__button1 {
+  color: var(--Bright-orange);
+  text-decoration: none;
+  padding: .6rem 1.6rem;
+  border-radius: 3rem;
+  background-color: white;
+
+}
+  /* Card 2 */
+.hero__card-2 {
+  background-color: var(--Dark-cyan);
+  border-radius: 0 0 0 0;
+  height: 450px;
+
+}
+.card__img-2 {
+  background-color: var(--Dark-cyan);
+  margin: 40px;
+}
+.card__tittle-2 {
+  background-color: var(--Dark-cyan);
+  margin: 0 0 20px 40px;
+  font-size: 40px;
+  
+  
+}
+.card__p-2 {
+  background-color: var(--Dark-cyan);
+  margin: 0 0 80px 40px;
+  font-weight: lighter;
+  opacity: 70%;
+  font-size: 15px;
+  max-width: 20%;
+}
+.card__button2 {
+  color: var(--Dark-cyan);
+  text-decoration: none;
+  padding: .6rem 1.6rem;
+  border-radius: 3rem;
+  background-color: white;
+  margin: 35px;
+  
+
+}
+/* Card 3 */
+.hero__card-3 {
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0 5px 5px 0;
+  height: 450px;
+}
+.card__img-3 {
+  background-color: var(--Very-dark-cyan);
+  margin: 40px;
+}
+.card__tittle-3 {
+  background-color: var(--Very-dark-cyan);
+  margin: 0 0 20px 40px;
+  font-size: 40px;
+}
+.card__p-3 {
+background-color: var(--Very-dark-cyan);
+margin: 0 0 80px 40px;
+  font-weight: lighter;
+  opacity: 70%;
+  font-size: 15px;
+  max-width: 20%;
+}
+.card__button3 {
+  color: var(--Very-dark-cyan);
+  text-decoration: none;
+  padding: .6rem 1.6rem;
+  border-radius: 3rem;
+  background-color: white;
+  margin: 35px;
+}
+}
